@@ -81,17 +81,47 @@ header h1 {
 .content {
     flex: 3;
     padding: 20px;
-    background: #2E2E2E;
+    background: rgba(46, 46, 46, 0.9); /* Semi-transparent background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.content-box {
+    flex: 1;
+    padding: 20px;
+    background: rgba(30, 30, 30, 0.9); /* Semi-transparent background */
+    border-left: 5px solid #66BB6A;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content_s {
+    flex: 3;
+    padding: 20px;
+    background: rgba(46, 46, 46, 0.9); /* Semi-transparent background */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
-.section {
-    margin-bottom: 20px;
+.section_s {
+    width: 100%;
+}
+
+.content-box_s {
     padding: 20px;
-    background: #1E1E1E;
+    background: rgba(30, 30, 30, 0.9); /* Semi-transparent background */
     border-left: 5px solid #66BB6A;
     border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
