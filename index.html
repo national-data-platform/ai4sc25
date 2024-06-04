@@ -16,6 +16,25 @@
             document.getElementById("email").innerHTML = "<a href='mailto:" + email + "'>" + email + "</a>";
         }
         window.onload = obfuscateEmail;
+
+        window.onload = function() {
+            const ticker = document.querySelector('.news-ticker');
+            const tickerContent = ticker.innerHTML;
+            let tickerWidth = ticker.scrollWidth;
+            let speed = 2; // Adjust speed as necessary
+
+            ticker.style.transition = `transform ${tickerWidth / speed}s linear`;
+            ticker.style.transform = `translateX(-${tickerWidth}px)`;
+
+            ticker.addEventListener('transitionend', function() {
+                ticker.style.transition = 'none';
+                ticker.style.transform = 'translateX(100%)';
+                setTimeout(function() {
+                    ticker.style.transition = `transform ${tickerWidth / speed}s linear`;
+                    ticker.style.transform = `translateX(-${tickerWidth}px)`;
+                }, 100); // Delay before starting the loop again
+            });
+        };
     </script>
 </head>
 <body>
@@ -33,7 +52,7 @@
             <li><a href="committee.html" class="button">Committee</a></li>
             <li><a href="important-dates.html" class="button">Important Dates</a></li>
             <li><a href="special-issue.html" class="button">Special Issue</a></li>
-            <li><a href="sponsors.html" class="button">Sponsors</a></li>
+<!--            <li><a href="sponsors.html" class="button">Sponsors</a></li>-->
         </ul>
     </aside>
     <main class="content">
