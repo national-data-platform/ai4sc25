@@ -3,148 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Workshop on Generative AI and FAIR Principles in Science Communication (AI4SC-2024), co-located with 20th IEEE e-Science 2024.">
+    <meta name="description" content="Workshop on Generative AI and FAIR Principles in Science Communication (AI4SC-2025), co-located with 21st IEEE e-Science 2025.">
     <meta name="keywords" content="AI, FAIR, Science Communication, Workshop, Generative AI, LLM, e-Science">
-    <title>AI4SC'24 - Generative AI and FAIR Principles in Science Communication</title>
+    <title>AI4SC'25 - Generative AI and FAIR Principles in Science Communication</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Style for the marquee */
-        .scrolling-message {
-            background-color: #ead89a;
-            color: #091e9e;
-            padding: 10px 0;
-            font-size: 20px;
-            font-weight: bold;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        }
-    </style>
-    <script>
-        // JavaScript to create a blinking tab effect
-        let originalTitle = document.title;
-        let blinkTitle = "🚨 New Schedule Available! 🚨";
-
-        function startBlinking() {
-            let isOriginalTitle = true;
-            setInterval(function() {
-                document.title = isOriginalTitle ? blinkTitle : originalTitle;
-                isOriginalTitle = !isOriginalTitle;
-            }, 1000); // Change every 1000ms (1 second)
-        }
-
-        window.onload = startBlinking;
-    </script>
-    <script type="text/javascript">
-        function obfuscateEmail() {
-            var user = "ai4sc";
-            var domain = "sdsc";
-            var tld = "edu";
-            var email = user + "@" + domain + "." + tld;
-            document.getElementById("email").innerHTML = "<a href='mailto:" + email + "'>" + email + "</a>";
-        }
-        window.onload = obfuscateEmail;
-
-        window.onload = function() {
-            const ticker = document.querySelector('.news-ticker');
-            const tickerContent = ticker.innerHTML;
-            let tickerWidth = ticker.scrollWidth;
-            let speed = 2; // Adjust speed as necessary
-
-            ticker.style.transition = `transform ${tickerWidth / speed}s linear`;
-            ticker.style.transform = `translateX(-${tickerWidth}px)`;
-
-            ticker.addEventListener('transitionend', function() {
-                ticker.style.transition = 'none';
-                ticker.style.transform = 'translateX(100%)';
-                setTimeout(function() {
-                    ticker.style.transition = `transform ${tickerWidth / speed}s linear`;
-                    ticker.style.transform = `translateX(-${tickerWidth}px)`;
-                }, 100); // Delay before starting the loop again
-            });
-        };
-    </script>
 </head>
 <body>
 <header>
     <img src="logo.jpeg" alt="AI Brain" class="header-image">
-    <h1>Workshop on Generative AI and FAIR Principles in Science Communication (AI4SC-2024)</h1>
-    <h3><a href="https://www.escience-conference.org/2024/">(Co-located with 20th IEEE e-Science 2024)</a></h3>
-    <marquee class="scrolling-message" behavior="scroll" direction="left" scrollamount="8">
-        🚨 New Schedule Available! Click <a href="schedule.html" style="color: #0033ff; text-decoration: underline;">here</a> to view the full schedule. 🚨
-
-        🚨 List of Accepted Papers are up!  Click <a href="accepted-papers.html" style="color: #ffff00; text-decoration: underline;">here</a> to view the full schedule.  🚨
-    </marquee>
-
+    <h1>Workshop on Generative AI and FAIR Principles in Science Communication (AI4SC-2025)</h1>
+    <h3><a href="https://www.escience-conference.org/2025/">(Co-located with 21st IEEE e-Science 2025)</a></h3>
 </header>
 <div class="container">
-    <aside class="sidebar">
-        <ul>
-            <li><a href="index.html" class="button">Home</a></li>
-            <li><a href="call-for-papers.html" class="button">Call for Papers</a></li>
-            <li><a href="accepted-papers.html" class="button">🚨 Accepted Papers</a></li>
-            <li><a href="schedule.html" class="button">🚨 Schedule</a></li>
-            <li><a href="invited-talks.html" class="button">Invited Talks</a></li>
-            <li><a href="committee.html" class="button">Committee</a></li>
-            <li><a href="important-dates.html" class="button">Important Dates</a></li>
-            <li><a href="special-issue.html" class="button">Special Issue</a></li>
-            <!--            <li><a href="sponsors.html" class="button">Sponsors</a></li>-->
-        </ul>
-    </aside>
     <main class="content">
         <section class="section">
             <div class="content-box">
-                <h2>Welcome to AI4SC 2024</h2>
                 <p>
-                    In an era when the boundaries of science and technology are increasingly overlapping, the emergence of generative AI and large language models (LLMs) has marked a pivotal shift in scientific communication. These cutting-edge technologies offer unprecedented opportunities to enhance the dissemination of complex scientific knowledge, making it more accessible and understandable to diverse stakeholders. However, the rapid integration of generative AI into the fabric of science communication also poses significant challenges, notably in maintaining the diversity of perspectives and addressing potential biases inherent in AI-driven content.
+                    In an era when the boundaries of science and technology are increasingly overlapping, the emergence of generative AI and large language models (LLMs) has marked a pivotal shift in scientific communication. These avant-grade technologies offer opportunities to enhance the dissemination of complex scientific knowledge, making it more accessible and understandable to the scientific and research communities. Furthermore, the recent integration of generative AI and research tools puts science communication ahead of significant challenges, notably in maintaining and fostering innovation and research across research communities. This paradigm shift and the novel scientific communication approach have necessitated the evolution of the current software ecosystems and repositories into a new dimension. This presents a potential gap and signifies a concerted effort across the community to develop strategies that address and bridge this gap.
                 </p>
                 <p>
-                    This is happening at a critical time for the scientific community, when scientists are exploring how generative AI, knowledge graphs, and large language models can revolutionize the sharing and understanding of scientific ideas across different communities. To explore such integration of science communication and AI, this workshop will bring together scientists, technologists, ethicists, AI developers, and science communicators to explore how generative AI can promote Findability, Accessibility, Interoperability, and Reusability (FAIR) principles while upholding equity and inclusivity in scientific discourse.
+                    It is critical that the data and computational science community investigate how Generative AI, Knowledge Graphs, and NLP can redefine scientific knowledge structuring, sharing, and understanding. Beyond communication, these technologies are becoming essential for developing, managing, and making scientific software and repositories usable—key enablers of modern research.
                 </p>
                 <p>
-                    We will critically examine how AI can advance FAIR principles in scientific domains, technology, computations, and data. Our goal is to cultivate a deep understanding of the advantages and challenges of LLM technologies, thereby aiding in creating robust frameworks and practices that promote the positive impact of generative AI in enhancing science communication and research innovation. This initiative is congruent with the overarching aim of amplifying public engagement with science, highlighting ethical and equitable imperatives in applying AI technologies within the scientific ambit.
+                    Building on the success of our previous workshop, this event will bring together scientists, technologists, AI researchers, ethicists, and software developers to explore this evolving intersection of AI and scientific communication. Together, we will examine how AI-driven techniques can enhance scientific discourse, improve software and repository accessibility, and address the broader implications of automation in research workflows.
                 </p>
-            </div>
-            <div class="content-box">
-                <h2>Event Updates and News</h2>
-                <ul>
-                    <li><strong>Website Open:</strong> May 15, 2024</li>
-                    <li><strong>Submissions Open:</strong> June 1, 2024</li>
-                    <li><strong>Submissions Closed:</strong> July 25, 2024</li>
-                    <li><strong>Reviews Sent and Resubmission Open:</strong> Aug 15, 2024</li>
-                    <li><strong>Final Camera Ready:</strong> Aug 30, 2024</li>
-                    <li><strong>Final Program Notifications:</strong> <a href="schedule.html" class="button"> Aug 30, 2024 🚨 Schedule</a></li>
-                </ul>
-                <div class="teaser">
-                    <h2>🚨The event will take place on September 17th, 2024, at the Senri Life Science Center, Room 501, Osaka Senri, Japan.</h2>
-                </div>
-                <div class="flash-notice" style="background-color: #00ff3c; padding: 10px; text-align: center;">
-                    <strong style="font-size: 1.8em; color: red;">🚨 Invited Talk:</strong> <a href="invited-talks.html" style="font-size: 1.5em; color: blue; text-decoration: underline;">Check out our featured talk on "Its the Data Stupid…."!</a>
-                </div>
-                <div class="teaser">
-                    <h3>Its the Data Stupid….</h3>
-                    <p>While machine learning and large language models are making waves, their success is built on one key ingredient: data. Join Carl Kesselman, William M. Keck Professor of Engineering at USC, as he explores how data-centric AI is shifting the focus from building new models to curating high-quality data. Discover how efforts in creating FAIR data are leading to reproducible and impactful machine learning applications, with real-world examples from the Protein Database and FaceBase repository.<a href="invited-talks.html">Learn more here.</a></p>
-                </div>
-                <div class="flash-notice" style="background-color: yellow; padding: 10px; text-align: center;">
-                    <strong style="font-size: 1.8em; color: red;">🚨 Industry Perspective:</strong> <a href="invited-talks.html" style="font-size: 1.5em; color: blue; text-decoration: underline;">Check out our featured talk on "AI and Scientific Discovery" for more details!</a>
-                </div>
-                <div class="teaser">
-                    <h3>AI and Scientific Discovery</h3>
-                    <p>Curious about how AI is revolutionizing scientific breakthroughs? Join us for a deep dive into the latest applications of advanced AI models in research, from genetics to climate science. Explore how AI is driving new discoveries by generating hypotheses, designing experiments, and interpreting complex data. Learn about cutting-edge techniques like self-supervised and generative learning, and discover the future of science powered by AI. Don’t miss this opportunity to hear from Dr. Shounak Datta, an expert in optimizing AI for efficiency, as he shares insights on the challenges and innovations shaping the next wave of scientific progress! <a href="invited-talks.html">Learn more here.</a></p>
-                </div>
-            </div>
-
-            <div class="content-box">
-                <h2>Venue Information</h2>
+                <h2>Overview (Workshop Theme and Key Topics)</h2>
                 <p>
-                    This year the eScience'24 will be held at the <a href="https://mice.osaka-info.jp/en/venue_search/senri-life-science-center/" >Senri Life Science Center</a> located in Osaka Senri, Japan. Senri Life Science Center is located a 2-minute walk from Senri Chuo Station, about 30 minutes from the center of Osaka, the second largest city of Japan. The venue is approximately 15 minutes from both Shin-Osaka Station and Osaka International Airport (Itami Airport).
+                    This workshop explores the fundamental scientific communication methodology using AI technology, software ecosystems, and methods of software usability, discovery, and automation, AI-enabled software and repository for enriching scientific communications, constructing tools like automated knowledge processing, knowledge graph constructions, and documentation generation in the context of science communication.
                 </p>
                 <p>
-                    View the location on <a href="https://maps.app.goo.gl/x7sYWm8ikKL8uMUD8" target="_blank">Google Maps</a>.
+                    Through a series of presentations and discussions, participants will gain a comprehensive understanding of how AI, particularly generative AI, can transform science communication, making complex information more accessible and engaging for a broader audience. Furthermore, beyond communication, the workshop will highlight the broader impact of AI on scientific software ecosystems and repositories, as well as integration with critical technologies such as databases, workflow management, knowledge graphs, ontologies, and security frameworks. Discussions will explore AI-driven techniques for software analysis, repository management, discovery, and reusability.
                 </p>
                 <p>
-                    For more details, visit the <a href="https://www.escience-conference.org/2024/venue">venue page</a> and the <a href="https://www.escience-conference.org/2024/">main page</a> of the eScience conference.
+                    Additionally, the workshop will highlight the interconnectedness of generative AI with other critical technologies, including databases, workflow management, knowledge graphs, ontologies, and security mechanisms. By examining these relationships, participants will develop a deeper appreciation of the broader impact of generative AI on scientific research and communication.
                 </p>
-
+                <h2>Previous Workshop</h2>
+                <p>
+                    You can explore the details of our 2024 workshop at: <a href="https://national-data-platform.github.io/ai4sc24/" target="_blank">https://national-data-platform.github.io/ai4sc24/</a>
+                </p>
                 <h2>Contact Details</h2>
                 <address>
                     <strong>San Diego Supercomputer Center, </strong><br>
@@ -152,16 +48,14 @@
                     9836 Hopkins Drive, MC 0505<br>
                     La Jolla, CA 92093-0505<br>
                     United States of America<br>
-                    Email: <span id="email">ai4sc@sdsc.edu</span>
+                    Email: <a href="mailto:ai4sc@sdsc.edu">ai4sc@sdsc.edu</a>
                 </address>
             </div>
-
-
         </section>
     </main>
 </div>
 <footer>
-    <p>&copy; 2024 AI4SC Workshop. All rights reserved.</p>
+    <p>&copy; 2025 AI4SC Workshop. All rights reserved.</p>
 </footer>
 </body>
 </html>
