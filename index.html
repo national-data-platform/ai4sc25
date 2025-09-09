@@ -7,6 +7,37 @@
     <meta name="keywords" content="AI, FAIR, Science Communication, Workshop, Generative AI, LLM, e-Science" />
     <title>Ai4SC 2025 - About</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+        /* Flashing banner */
+        .flash-banner {
+            background: #004080;
+            color: #fff;
+            padding: 12px;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            animation: flash 1.5s infinite;
+        }
+        @keyframes flash {
+            0% { opacity: 1; }
+            50% { opacity: 0.4; }
+            100% { opacity: 1; }
+        }
+        .flash-banner a {
+            color: #ffeb3b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .flash-banner a:hover {
+            text-decoration: underline;
+        }
+        /* Sidebar icon style */
+        nav ul li a span.icon {
+            margin-right: 6px;
+        }
+    </style>
 </head>
 <body>
 <!-- Sidebar Navigation -->
@@ -16,18 +47,28 @@
         <li><a href="cfp.html">Call for Papers</a></li>
         <li><a href="dates.html">Important Dates</a></li>
         <li><a href="committee.html">Committee</a></li>
+        <li><a href="schedule.html"><span class="icon">📅</span>Schedule</a></li>
         <li><a href="https://national-data-platform.github.io/ai4sc24/" target="_blank">Previous Workshop</a></li>
-<!--        <li><a href="contact.html">Contact</a></li>-->
+        <!-- <li><a href="contact.html">Contact</a></li> -->
     </ul>
 </nav>
 
 <!-- Main Content -->
 <main class="container">
+    <!-- Flashing Banner with Link -->
+    <div class="flash-banner">
+        🎉 The <a href="schedule.html">schedule</a> is available — see you in Chicago! 🎉
+    </div>
+
     <header class="header-wrapper">
         <img src="ai4sc.jpeg" alt="AI Brain" class="header-image" />
         <div>
             <h1>The Second International Workshop on AI Principles in Science Communication (Ai4SC)</h1>
-            <h3><a href="https://www.escience-conference.org/2025/" target="_blank">(Co-located with 21st IEEE e-Science 2025)</a></h3>
+            <h3>
+                <a href="https://www.escience-conference.org/2025/" target="_blank">
+                    (Co-located with 21st IEEE e-Science 2025)
+                </a>
+            </h3>
         </div>
     </header>
 
